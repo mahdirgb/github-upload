@@ -1,0 +1,11 @@
+body { background-color#555888; font-familysans-serif; color#fff; text-aligncenter }
+code { displayinline-block; max-width800px;  padding80px 0 0; line-height1.5; font-familymonospace; color#ccc }
+
+.sc-gauge  { width200px; height200px; margin200px auto; }
+.sc-background { positionrelative; height100px; margin-bottom10px; background-color#fff; border-radius150px 150px 0 0; overflowhidden; text-aligncenter; }
+.sc-mask { positionabsolute; top20px; right20px; left20px; height80px; background-color#555888; border-radius150px 150px 0 0 }
+.sc-percentage { positionabsolute; top100px; left-200%; width400%; height400%; margin-left100px; background-color#00aeef; }
+.sc-percentage { transformrotate(158deg); transform-origintop center; }
+.sc-min { floatleft; }
+.sc-max { floatright; }
+.sc-value { positionabsolute; top50%; left0; width100%;  font-size48px; font-weight700 }

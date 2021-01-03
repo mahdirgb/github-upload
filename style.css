@@ -1,0 +1,1009 @@
+@font-face{
+    font-family: iran;
+    src: url(/IRANSANS/ttf/IRANSansWeb.ttf) format('truetype');
+}
+
+.container{
+   background-color: #1E7070;
+   display: grid;
+   grid-template-columns: 340px;
+   grid-template-rows: 1056px;
+   width: 340px;
+   height: 1056px;
+   margin-right: 10px;
+   transition: all ease 0.8s;
+   z-index: 2000;
+}
+
+/*start logo iran turan */
+.img-logo{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin: 12px 7px 0px 0px;
+    cursor: pointer;
+}
+/* end logo iran turan */
+
+.sory{
+    position: relative;
+    bottom: 1044px;
+    right: 85px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.admin{
+    position: relative;
+    bottom: 1040px;
+    right: 70px;
+    font-size: 15px;
+    color: #A8A8AA;
+}
+
+.sandogh{
+    position: relative;
+    bottom: 1000px;
+    right: 15px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hoshdar{
+   bottom:975px;
+   position: relative;
+   font-size: 18px;
+   margin-right: 15px;
+   color: #ffffff;
+   cursor: pointer;
+}
+
+.alamat{
+    width: 26px;
+    height: 26px;
+    background-color: #E21126;
+    bottom: 1000px;
+    position: relative;
+    right: 80px;
+    border-radius: 5px;
+}
+
+.matn-box{
+    color: #ffffff;
+    position: relative;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 4px;
+}
+/* start square */
+.Square1,.Square2,.Square3,.Square4{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #03f7d6;
+    bottom: 950px;
+    position: relative;
+    border-radius: 2px;
+    background-color: #0cf8d9;
+    margin-right: -10px;
+    z-index: 1000 !important;
+}
+
+.Square1{
+    position: relative;
+    right: 51px;
+    bottom: 968px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.Square2{
+    right: 51px;
+    position: relative;
+    bottom: 966px;
+}
+
+.Square3{
+    bottom: 992px;
+    position: relative;
+    right: 37px;
+}
+
+.Square4{
+  position: relative;
+  bottom: 990px;
+  right: 37px;
+}
+/* end Square */
+.pad{
+    position: relative;
+    bottom: 985px;
+    font-size: 20px;
+    color: #A8A8AA;
+    right: 17px;
+}
+
+.egmali{
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    bottom: 1013px;
+    right: 70px;
+    font-size: 18px;
+    z-index: 5;
+}
+
+a{
+    text-decoration: none;
+}
+
+.parts{
+    font-size: 20px;
+    bottom: 985px;
+    position: relative;
+    color: #ffffff;
+    cursor: pointer;
+   left:21px;
+}
+
+.Audiences{
+    font-size: 20px;
+    color: #ffffff;
+    position: relative;
+    bottom: 1015px;
+    left: 20px;
+}
+
+.rasaneh{
+    font-size: 20px;
+    bottom: 1000px;
+    position: relative;
+    left: 20px;
+    color: #ffffff;
+}
+
+.analysis{
+    font-size: 20px;
+    position: relative;
+    bottom: 920px;
+    color: #A8A8AA;
+    right: 20px;
+}
+
+.moshtarakin{
+    font-size: 20px;
+    position: relative;
+    bottom: 900px;
+    left: 20px;
+    color: #ffffff;
+}
+
+.kanal{
+    font-size: 20px;
+    position: relative;
+    bottom: 913px;
+    color: #ffffff;
+    left: 20px;
+}
+
+.alamat-moshtarakin{
+   width: 26px;
+   height: 26px;
+   background-color: #E21126;
+   border-radius: 5px;
+   position: relative;
+   bottom: 995px;
+   right: 100px;
+   color: #ffffff;
+}
+
+.add{
+    position: relative;
+    top: 3px;
+    right: 3px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.Mergers{
+    bottom: 955px;
+    position: relative;
+    left: 22px;
+}
+
+.matn-Mergers{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.reports{
+    position: relative;
+    bottom: 969px;
+    left: 22px;
+}
+
+.matn-reports{
+   color: #ffffff;
+   font-size: 20px;
+}
+
+.box-panel{
+    display: grid;
+    grid-template-columns:951px;
+    grid-template-rows: 173px;
+    right:372px;
+    border-radius: 7px;
+    position: relative;
+    bottom: 1055px;
+    background-color: #1E7070;
+    width: 951px;
+    height: 173px;
+}
+
+.jadid{
+    color: #B7ADAD;
+    font-size: 20px;
+    position: relative;
+    right: 50px;
+    top: 16px;
+}
+
+.tedad{
+    position: relative;
+    bottom: 100px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    right: 60px;
+    line-height: 0;
+}
+
+.jaryan{
+    font-size: 20px;
+    color: #B7ADAD;
+    bottom: 157px;
+    position: relative;
+    right: 310px;
+}
+
+.tedad-j{
+    font-size: 30px;
+    bottom: 140px;
+    position: relative;
+    right: 300px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.border{
+    border-right: 1px solid #707070;
+    height: 171px;
+    position: relative;
+    right: 240px;
+    bottom: 230px;
+}
+
+.pishraft{
+    width: 80px;
+    height: 50px;
+    position: relative;
+    bottom: 300px;
+    right: 90px;
+}
+
+.darsad-pishraft{
+    font-size: 20px;
+    color: #01B075;
+    bottom: 338px;
+    position: relative;
+    right: 32px;
+}
+
+.pasraft{
+    width: 80px;
+    height: 50px;
+    position: relative;
+    bottom: 372px;
+    right: 340px;
+}
+
+.darsad-pasraft{
+    color: #FD4837;
+    font-size: 20px;
+    position: relative;
+    bottom: 413px;
+    right: 275px;
+}
+
+.border-2{
+    border-right: 1px solid #707070;
+    height: 171px;
+    position: relative;
+    right: 477px;
+    bottom: 545px;
+}
+
+.tamol{
+    font-size: 20px;
+    bottom: 703px;
+    position: relative;
+    right: 570px;
+    color:#B7ADAD;
+}
+
+.tedad-t{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 685px;
+    right: 566px;
+    color: #ffffff;
+}
+
+.pishraft-2{
+    width: 80px;
+    height: 50px;
+    position: relative;
+    bottom: 675px;
+    right: 600px;
+}
+
+.darsad-t{
+    font-size: 20px;
+    position: relative;
+    bottom: 712px;
+    right: 543px;
+    color: #01B075;
+}
+
+.border-3{
+    border-right: 1px solid #707070;
+    height: 171px;
+    position: relative;
+    bottom: 847px;
+    right: 720px;
+}
+
+.tamasha{
+    font-size: 20px;
+    color:#B7ADAD;
+    bottom: 1005px;
+    position: relative;
+    right: 780px;
+}
+
+.meyangin{
+    font-size: 30px;
+    position: relative;
+    bottom: 985px;
+    right: 790px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.pishraft-3{
+    width: 80px;
+    height: 50px;
+    position: relative;
+    bottom: 976px;
+    right: 850px;
+}
+
+.darsad-z{
+    font-size: 20px;
+    color: #01B075;
+    position: relative;
+    bottom: 1013px;
+    right: 800px;
+}
+
+.box-n{
+    display: grid;
+    grid-template-columns: 650px;
+    grid-template-rows: 462px;
+    background-color: #1E7070;
+    width: 650px;
+    height: 462px;
+    position: relative;
+    right: 373px;
+    bottom: 1030px;
+    border-radius: 7px;
+}
+
+.hozzar{
+    font-size: 20px;
+    color:#B7ADAD;
+    position: relative;
+    top: 32px;
+    right: 17px;
+}
+
+#bar-chart{
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+    z-index: 5;
+}
+
+.myChartDiv {
+    max-width: 600px;
+    max-height: 400px;
+    position: relative;
+    bottom: 260px;
+    right: 20px;
+  }
+
+.darsad-nemodar{
+    font-size: 30px;
+    position: relative;
+    bottom: 660px;
+    color: #ffffff;
+    right:500px;
+    font-weight: bold;
+}
+
+.pishraft-4{
+    width: 80px;
+    height: 50px;
+    position: relative;
+    right: 570px;
+    bottom: 660px;
+}
+
+.darsad-f{
+font-size: 20px;
+color: #01B075;
+bottom: 698px;
+position: relative;
+right: 510px;
+}
+
+.roz{
+    font-size: 20px;
+    color: #91ABAB;
+    bottom: 719px;
+    position: relative;
+    right: 356px;
+}
+
+.mizan{
+    display: grid;
+    grid-template-columns: 260px;
+    grid-template-rows: 327px;
+    width: 273px;
+    height: 327px;
+    background-color: #1E7070;
+    position: relative;
+    bottom: 1491.5px;
+    right: 1047px;
+    border-radius: 7px;
+}
+
+.gauge {
+    width: 100%;
+    max-width: 240px;
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    color: #004033;
+    position: relative;
+    top: 80px;
+    right: 17px;
+  }
+  
+  .gauge__body {
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    background: rgb(248, 95, 6);
+    position: relative;
+    border-top-left-radius: 100% 200%;
+    border-top-right-radius: 100% 200%;
+    overflow: hidden;
+  }
+  
+  .gauge__fill {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: inherit;
+    height: 100%;
+    background: #009578;
+    transform-origin: center top;
+    transform: rotate(0.38turn);
+    transition: transform 0.2s ease-out;
+  }
+  
+  .gauge__cover {
+    width: 75%;
+    height: 150%;
+    background: #1E7070;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+  
+    /* Text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25%;
+    box-sizing: border-box;
+    color: #ffffff;
+  }
+
+  .sefr{
+      position: relative;
+      right: 230px;
+      font-size: 20px;
+      bottom: 120px;
+      color: #B7ADAD;
+  }
+
+  .noghteh{
+   position: relative;
+   bottom: 340px;
+   right: 235px;
+   cursor: pointer;
+  }
+
+.rezayat{
+  font-size: 20px;
+  color: #B7ADAD;
+  bottom: 360px;
+  position: relative;
+  right: 10px;
+}
+
+.sad{
+    position: relative;
+    bottom: 191px;
+    font-size: 20px;
+    color: #B7ADAD;
+    right: 7px;
+}
+
+.shekl{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 127px;
+    bottom: 302px;
+}
+
+.like{
+    font-size: 14px;
+    position: relative;
+    bottom: 238px;
+    right: 70px;
+    color: #B7ADAD;
+}
+
+.vebinar{
+    display: grid;
+    grid-template-columns: 258px;
+    grid-template-rows: 388px;
+    width: 258px;
+    height: 300px;
+    background-color: #48aea1;
+    position: relative;
+    right: 1056px;
+    bottom: 1470px;
+    border-radius: 7px;
+}
+
+.vbn{
+    font-size: 20px;
+    color: #ffffff;
+    position: relative;
+    top: 17px;
+    right: 25px;
+}
+
+.matn-vebinar{
+    font-size: 20px;
+    bottom: 330px;
+    position: relative;
+    right: 13px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.karshenas{
+    font-size: 18px;
+    color: #ffffff;
+    bottom: 300px;
+    position: relative;
+    right: 13px;
+}
+
+.amozesh{
+    color: #ffffff;
+    position: relative;
+    bottom: 270px;
+    background-color: #48aea1;
+    outline: none;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    font-size: 17px;
+    right: 5px;
+}
+
+.seh{
+    position: relative;
+    right: 200px;
+    bottom: 528px;
+    cursor: pointer;
+}
+
+.portaraf{
+    display: grid;
+    grid-template-columns: 650px;
+    grid-template-rows: 552px;
+    width: 650px;
+    height: 552px;
+    background-color: #1E7070;
+    position: relative;
+    bottom: 1633px;
+    right: 374px;
+    border-radius: 7px;
+}
+
+.matn-p{
+    font-size: 20px;
+    color: #7DA1A1;
+    position: relative;
+    top: 24px;
+    right: 24px;
+}
+
+.didan{
+    position: relative;
+    color: #1CBCA7;
+    font-size: 20px;
+    right: 565px;
+    bottom: 530px;
+    cursor: pointer;
+}
+
+.live-1{
+    position: relative;
+    background-color: #81A3A3;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    color: #ffffff;
+    bottom: 517px;
+    right: 40px;
+}
+
+.live-2{
+    position: relative;
+    background-color: #81A3A3;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    color: #ffffff;
+    bottom: 517px;
+    right: 40px;
+    margin-top: 59px;
+}
+
+.live-3{
+    position: relative;
+    background-color: #81A3A3;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    color: #ffffff;
+    bottom: 517px;
+    right: 40px;
+    margin-top: 59px;
+}
+
+.live-4{
+    position: relative;
+    background-color: #81A3A3;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    color: #ffffff;
+    bottom: 517px;
+    right: 40px;
+    margin-top: 59px;
+}
+
+.live-5{
+    position: relative;
+    background-color: #81A3A3;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    color: #ffffff;
+    bottom: 517px;
+    right: 40px;
+    margin-top: 59px;
+}
+
+.yek{
+    position: relative;
+    right: 10px;
+    top: 3px;
+}
+
+.forosh1{
+    font-size: 25px;
+    position: relative;
+    bottom: 923px;
+    right: 93px;
+    color: #ffffff;
+}
+
+.forosh2{
+    font-size: 25px;
+    position: relative;
+    bottom: 923px;
+    right: 93px;
+    color: #ffffff;
+    margin-top: 65px;
+}
+
+.forosh3{
+    font-size: 25px;
+    position: relative;
+    bottom: 923px;
+    right: 93px;
+    color: #ffffff;
+    margin-top: 65px;
+}
+
+.forosh4{
+    font-size: 25px;
+    position: relative;
+    bottom: 923px;
+    right: 93px;
+    color: #ffffff;
+    margin-top: 65px;
+}
+
+.forosh5{
+    font-size: 25px;
+    position: relative;
+    bottom: 923px;
+    right: 93px;
+    color: #ffffff;
+    margin-top: 65px;
+}
+
+.mehman1{
+    font-size: 20px;
+    color: #B7C4C4;
+    bottom: 1285px;
+    position: relative;
+    right: 92px;
+}
+
+.mehman2{
+    font-size: 20px;
+    color: #B7C4C4;
+    bottom: 1285px;
+    position: relative;
+    right: 92px;
+    margin-top: 70px;
+}
+
+.mehman3{
+    font-size: 20px;
+    color: #B7C4C4;
+    bottom: 1285px;
+    position: relative;
+    right: 92px;
+    margin-top: 70px;
+}
+
+.mehman4{
+    font-size: 20px;
+    color: #B7C4C4;
+    bottom: 1285px;
+    position: relative;
+    right: 92px;
+    margin-top: 70px;
+}
+
+.mehman5{
+    font-size: 20px;
+    color: #B7C4C4;
+    bottom: 1285px;
+    position: relative;
+    right: 92px;
+    margin-top: 70px;
+}
+
+.z1{
+   font-size: 20px;
+   color: #1CBCA7;
+   position: relative;
+   bottom: 1720px;
+   right: 545px;
+}
+
+.z2{
+    font-size: 20px;
+    color: #1CBCA7;
+    position: relative;
+    bottom: 1720px;
+    right: 545px;
+    margin-top: 70px;
+ }
+
+ .z3{
+    font-size: 20px;
+    color: #1CBCA7;
+    position: relative;
+    bottom: 1720px;
+    right: 545px;
+    margin-top: 70px;
+ }
+
+ .z4{
+    font-size: 20px;
+    color: #1CBCA7;
+    position: relative;
+    bottom: 1720px;
+    right: 545px;
+    margin-top: 70px;
+ }
+
+ .z5{
+    font-size: 20px;
+    color: #1CBCA7;
+    position: relative;
+    bottom: 1720px;
+    right: 545px;
+    margin-top: 70px;
+ }
+
+ .navad1{
+     font-size: 20px;
+     position: relative;
+     bottom: 2116px;
+     right: 582px;
+     color: #B7C4C4;
+ }
+
+ .navad2{
+    font-size: 20px;
+    position: relative;
+    bottom: 2116px;
+    right: 582px;
+    color: #B7C4C4;
+    margin-top: 70px;
+}
+
+.navad3{
+    font-size: 20px;
+    position: relative;
+    bottom: 2116px;
+    right: 582px;
+    color: #B7C4C4;
+    margin-top: 70px;
+}
+
+.navad4{
+    font-size: 20px;
+    position: relative;
+    bottom: 2116px;
+    right: 582px;
+    color: #B7C4C4;
+    margin-top: 70px;
+}
+
+.navad5{
+    font-size: 20px;
+    position: relative;
+    bottom: 2116px;
+    right: 582px;
+    color: #B7C4C4;
+    margin-top: 70px;
+}
+
+.menu,#zarb{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.button{
+    background-color: #1CBCA7;
+    width: 250px;
+    height: 50px;
+    position: relative;
+    bottom: 2685px;
+    border-radius: 8px;
+    right: 15px;
+    border-color: #1CBCA7;
+   display: none;
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        position: relative;
+        left: 370px;
+        transition: all ease 1.2s;
+        width: 300px;
+        background-color:#39a0a0;
+        height: 900px;
+    }
+    .Square1,.Square2,.Square3,.Square4{
+        display: none;
+    }
+    .barrasi,.img-logo,.sory{
+        display: none;
+    }
+    .menu{
+        position: relative;
+        bottom:2696px;
+        right: 25px;
+        width: 300px;
+        height: 80px;
+       visibility: visible;
+       opacity: 1;
+       z-index: 2000;
+    }
+    
+    .alamat{
+        width: 20px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    .alamat-moshtarakin{
+        width: 25px;
+        height: 25px;
+    }
+    .add{
+        font-size: 15px;
+    }
+    #zarb{
+        position: relative;
+        bottom: 2774px;
+        right:25px;
+        width: 300px;
+        height: 80px;
+        opacity: 1;
+        z-index: 2000;
+    }
+    .box-panel{
+        right:100px;
+        border-radius: 7px;
+        position: relative;
+        bottom: 800px;
+        background-color: #1E7070;
+    }
+    .jadid{
+        color: #B7ADAD;
+        font-size: 15px;
+        position: relative;
+        right: 50px;
+        top: 16px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
