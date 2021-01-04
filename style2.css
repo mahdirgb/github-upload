@@ -793,6 +793,36 @@ display: none;
     position: absolute;
     color: #B7C4C4;
     font-size: 20px;
+    margin-right: -235px;
+    top: 41px;
+}
+.mehman2{
+    position: absolute;
+    color: #B7C4C4;
+    font-size: 20px;
+    margin-right: -235px;
+    top: 136px;
+}
+.mehman3{
+    position: absolute;
+    color: #B7C4C4;
+    font-size: 20px;
+    margin-right: -235px;
+    top: 231px;
+}
+.mehman4{
+    position: absolute;
+    color: #B7C4C4;
+    font-size: 20px;
+    margin-right: -235px;
+    top: 326px;
+}
+.mehman5{
+    position: absolute;
+    color: #B7C4C4;
+    font-size: 20px;
+    margin-right: -235px;
+    top: 421px;
 }
 
 @media (min-width: 50px) and (max-width: 576px){
