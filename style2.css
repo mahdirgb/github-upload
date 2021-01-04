@@ -824,7 +824,77 @@ display: none;
     margin-right: -235px;
     top: 421px;
 }
-
+.zendehw{
+    position: absolute;
+    width: 100px;
+    height: 500px;
+    margin-right: 525px;
+    margin-top: 67px;
+}
+.zxc{
+    position: absolute;
+    margin-right: -95px;
+   font-size: 20px;
+   color: #1CBCA7;
+}
+.zxc2{
+    position: absolute;
+    margin-right: -95px;
+   font-size: 20px;
+   color: #1CBCA7;
+   margin-top: 95px;
+}
+.zxc3{
+    position: absolute;
+    margin-right: -95px;
+   font-size: 20px;
+   color: #1CBCA7;
+   margin-top: 190px;
+}
+.zxc4{
+    position: absolute;
+    margin-right: -95px;
+   font-size: 20px;
+   color: #1CBCA7;
+   margin-top: 285px;
+}
+.zxc5{
+    position: absolute;
+    margin-right: -95px;
+   font-size: 20px;
+   color: #1CBCA7;
+   margin-top: 380px;
+}
+.rtg{
+    position: absolute;
+    margin-right: -48px;
+    margin-top: 3px;
+    color: #B7C4C4;
+}
+.rtg2{
+    position: absolute;
+    margin-right: -48px;
+    margin-top: 98px;
+    color: #B7C4C4;
+}
+.rtg3{
+    position: absolute;
+    margin-right: -48px;
+    margin-top: 193px;
+    color: #B7C4C4;
+}
+.rtg4{
+    position: absolute;
+    margin-right: -48px;
+    margin-top: 288px;
+    color: #B7C4C4;
+}
+.rtg5{
+    position: absolute;
+    margin-right: -48px;
+    margin-top: 383px;
+    color: #B7C4C4;
+}
 @media (min-width: 50px) and (max-width: 576px){
 .jadid{
     left: 20%;
